@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="atyle.css" />
+    </head>
+    <body>
+        <img class="body-bg" src="img/download.png" alt="" />
+
+        <div class="container">
+            <h1 class="title">Typing game</h1>
+            <h2 class="random_word">write this word</h2>
+            <input class="input_text" type="text" />
+
+            <div class="rezult_box">
+                <div class="score_box">Score: <span class="score">0</span></div>
+                <div class="time_box">
+                    <span class="minut">00</span> :
+                    <span class="second">10</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game_over">
+            <h2 class="game_over-text">Game over</h2>
+            <button class="restart_game">Restart</button>
+        </div>
+
+        <select class="select-uroven">
+            <option value="5">easy</option>
+            <option value="3">normal</option>
+            <option value="2">hard</option>
+        </select>
+
+        <button class="start_game">Start game</button>
+
+        <script src="word.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
